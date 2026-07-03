@@ -1,0 +1,8 @@
+package singletone;
+
+public class Main {
+    public static void main(String[] args) {
+        singletoneExample obj = singletoneExample.getInstance();
+        obj.showMessage();
+    }
+}
