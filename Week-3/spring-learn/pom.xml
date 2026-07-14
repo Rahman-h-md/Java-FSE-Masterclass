@@ -48,6 +48,11 @@
         </dependency>
     </dependencies>
 
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+    </dependency>
+
     <build>
         <plugins>
             <plugin>
