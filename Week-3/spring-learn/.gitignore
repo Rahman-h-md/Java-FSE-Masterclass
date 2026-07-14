@@ -19,19 +19,21 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
 replay_pid*
-# IntelliJ IDEA
+
+# IntelliJ IDEA files
 .idea/
 *.iml
 
 # Maven build files
 target/
-*/target/
+.idea/
+*.iml
 
-# Output folders
+# IntelliJ output
 out/
 
-# Spring Boot generated files
-*.log
+# Spring Initializr help file
+HELP.md
